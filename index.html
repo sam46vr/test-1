@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Thoughtful Parent | Psychology-Informed Parenting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, .serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .fade-in {
+            animation: fadeIn 1.2s ease-out forwards;
+            opacity: 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+        .accordion-item.active .accordion-content {
+            max-height: 200px;
+        }
+        .accordion-item.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="bg-[#FDFBFA] text-slate-800">
+
+    <!-- Navigation -->
+    <nav class="py-6 px-6 md:px-12 flex justify-between items-center max-w-7xl mx-auto">
+        <div class="text-xl font-semibold tracking-tight serif italic text-slate-900">The Thoughtful Parent</div>
+        <a href="#cta" class="hidden md:block text-sm font-medium hover:text-slate-500 transition-colors">Learn More</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="px-6 md:px-12 py-16 md:py-24 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div class="fade-in">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl leading-tight text-slate-900 mb-6">
+                Stop collecting parenting advice. <span class="italic text-slate-600">Start changing the emotional patterns in your home.</span>
+            </h1>
+            <p class="text-lg text-slate-600 mb-10 leading-relaxed max-w-xl">
+                A practical, psychology-informed guide for Indian mothers. Learn to regulate yourself, understand your child, and replace daily frustration with connection.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#cta" class="bg-[#2C3E50] text-white px-8 py-4 rounded-full font-medium text-center hover:bg-[#1a252f] transition-all transform hover:-translate-y-1 shadow-lg">
+                    Get the Complete Bundle (₹499)
+                </a>
+            </div>
+        </div>
+        <div class="fade-in delay-1 relative">
+            <!-- Mockup Placeholder -->
+            <div class="aspect-square bg-[#EAE7E2] rounded-2xl flex items-center justify-center overflow-hidden shadow-inner border border-slate-200">
+                <div class="text-center p-8">
+                    <div class="w-32 h-44 bg-white shadow-xl rounded-r-lg mx-auto mb-4 border-l-4 border-slate-300 flex items-center justify-center text-slate-400 italic serif">eBook Mockup</div>
+                    <div class="w-16 h-32 bg-slate-900 shadow-xl rounded-xl mx-auto border-2 border-slate-700 flex items-center justify-center text-white text-[10px]">Phone</div>
+                </div>
+            </div>
+            <!-- Decorative accent -->
+            <div class="absolute -bottom-6 -left-6 w-24 h-24 bg-[#B2BCA3] rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-pulse"></div>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section class="bg-white py-20 px-6 md:px-12">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl text-slate-900 mb-12 fade-in">Does this sound familiar?</h2>
+            <div class="grid md:grid-cols-1 gap-6 text-left mb-16">
+                <div class="flex gap-4 p-6 rounded-2xl bg-[#F9F7F5] border border-slate-100 transition-all hover:border-slate-200 fade-in delay-1">
+                    <span class="text-slate-400 text-xl">✕</span>
+                    <p class="text-lg text-slate-700">Losing your patience before 8:00 AM and feeling guilty for the rest of the day.</p>
+                </div>
+                <div class="flex gap-4 p-6 rounded-2xl bg-[#F9F7F5] border border-slate-100 transition-all hover:border-slate-200 fade-in delay-2">
+                    <span class="text-slate-400 text-xl">✕</span>
+                    <p class="text-lg text-slate-700">Telling yourself "I must stay calm," only to snap when your child won't listen.</p>
+                </div>
+                <div class="flex gap-4 p-6 rounded-2xl bg-[#F9F7F5] border border-slate-100 transition-all hover:border-slate-200 fade-in delay-3">
+                    <span class="text-slate-400 text-xl">✕</span>
+                    <p class="text-lg text-slate-700">Suppressing your frustration until you eventually explode.</p>
+                </div>
+            </div>
+            <p class="text-xl italic text-slate-600 serif max-w-2xl mx-auto fade-in delay-3">
+                These aren't character flaws. They are learned emotional habits. And what is learned can be unlearned.
+            </p>
+        </div>
+    </section>
+
+    <!-- The Solution Section -->
+    <section class="py-20 px-6 md:px-12 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl text-slate-900 mb-4">Grounded in Science. Built for the Real World.</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto">
+                Based on Cognitive Behavioural Therapy (CBT), Attachment Theory, and Nervous System Science, stripped of academic jargon and tailored for the Indian household.
+            </p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-8 bg-white rounded-3xl border border-slate-100 shadow-sm text-center transition-all hover:shadow-md">
+                <div class="w-12 h-12 bg-[#B2BCA3] text-white rounded-full flex items-center justify-center mx-auto mb-6 font-semibold">1</div>
+                <h3 class="text-xl font-medium mb-3">Understand</h3>
+                <p class="text-slate-600">Trace the roots of your emotional reactions and identify your triggers.</p>
+            </div>
+            <div class="p-8 bg-white rounded-3xl border border-slate-100 shadow-sm text-center transition-all hover:shadow-md">
+                <div class="w-12 h-12 bg-[#B2BCA3] text-white rounded-full flex items-center justify-center mx-auto mb-6 font-semibold">2</div>
+                <h3 class="text-xl font-medium mb-3">Pause</h3>
+                <p class="text-slate-600">Learn the "Pause Before Pattern" method to interrupt your autopilot response.</p>
+            </div>
+            <div class="p-8 bg-white rounded-3xl border border-slate-100 shadow-sm text-center transition-all hover:shadow-md">
+                <div class="w-12 h-12 bg-[#B2BCA3] text-white rounded-full flex items-center justify-center mx-auto mb-6 font-semibold">3</div>
+                <h3 class="text-xl font-medium mb-3">Repair</h3>
+                <p class="text-slate-600">Master the exact words to say to your child after a rupture to rebuild trust.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What's Included -->
+    <section class="bg-slate-900 text-white py-20 px-6 md:px-12">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-4xl text-center mb-16 serif">Everything you need to shift your parenting.</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-3xl bg-slate-800 border border-slate-700 flex flex-col">
+                    <div class="text-slate-400 mb-4 uppercase tracking-widest text-xs font-semibold">Core Resource</div>
+                    <h3 class="text-xl font-medium mb-4">The Thoughtful Parent E-Book</h3>
+                    <p class="text-slate-400 flex-grow">The complete psychology-informed core book guiding you through the transformation.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-800 border border-slate-700 flex flex-col">
+                    <div class="text-slate-400 mb-4 uppercase tracking-widest text-xs font-semibold">Quick Guide</div>
+                    <h3 class="text-xl font-medium mb-4">Help Yourself Mini-Guide</h3>
+                    <p class="text-slate-400 flex-grow">A quick-reference guide for those high-stress moments when you need a reminder fast.</p>
+                </div>
+                <div class="p-8 rounded-3xl bg-slate-800 border border-slate-700 flex flex-col">
+                    <div class="text-slate-400 mb-4 uppercase tracking-widest text-xs font-semibold">Support</div>
+                    <h3 class="text-xl font-medium mb-4">14-Day Implementation Emails</h3>
+                    <p class="text-slate-400 flex-grow">Bite-sized daily prompts delivered to your inbox to practice without feeling overwhelmed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Author -->
+    <section class="py-20 px-6 md:px-12 max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div class="order-2 md:order-1">
+            <h2 class="text-3xl md:text-4xl text-slate-900 mb-6">Meet the Author</h2>
+            <p class="text-lg text-slate-600 leading-relaxed mb-6">
+                Written by <strong>Syeda Salma</strong>. Her work is rooted in evidence-based psychology and grounded in the everyday realities of Indian family life.
+            </p>
+            <p class="text-lg text-slate-600 leading-relaxed serif italic">
+                "She believes that when a parent heals, an entire family changes."
+            </p>
+        </div>
+        <div class="order-1 md:order-2">
+            <div class="aspect-square bg-[#EAE7E2] rounded-full overflow-hidden border-8 border-white shadow-lg flex items-center justify-center text-slate-400 italic serif">
+                Portrait Placeholder
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-20 px-6 md:px-12 bg-white">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl text-center text-slate-900 mb-12">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="accordion-item border-b border-slate-100" onclick="this.classList.toggle('active')">
+                    <button class="w-full py-6 flex justify-between items-center text-left font-medium text-lg text-slate-800">
+                        Who is this for?
+                        <span class="accordion-icon transition-transform duration-300">↓</span>
+                    </button>
+                    <div class="accordion-content text-slate-600">
+                        <p class="pb-6">This is specifically designed for Indian mothers of children aged 5-10 who feel exhausted by daily power struggles and want a science-backed way to improve their connection with their children.</p>
+                    </div>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="accordion-item border-b border-slate-100" onclick="this.classList.toggle('active')">
+                    <button class="w-full py-6 flex justify-between items-center text-left font-medium text-lg text-slate-800">
+                        Is this a substitute for therapy?
+                        <span class="accordion-icon transition-transform duration-300">↓</span>
+                    </button>
+                    <div class="accordion-content text-slate-600">
+                        <p class="pb-6">No, this is an educational resource and toolset. While it is based on psychological principles, it is not a replacement for clinical therapy or professional mental health support.</p>
+                    </div>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="accordion-item border-b border-slate-100" onclick="this.classList.toggle('active')">
+                    <button class="w-full py-6 flex justify-between items-center text-left font-medium text-lg text-slate-800">
+                        How do I receive the product?
+                        <span class="accordion-icon transition-transform duration-300">↓</span>
+                    </button>
+                    <div class="accordion-content text-slate-600">
+                        <p class="pb-6">Immediately after purchase, you will receive a download link for the e-books and a confirmation for the email sequence.</p>
+                    </div>
+                </div>
+                <!-- FAQ 4 -->
+                <div class="accordion-item border-b border-slate-100" onclick="this.classList.toggle('active')">
+                    <button class="w-full py-6 flex justify-between items-center text-left font-medium text-lg text-slate-800">
+                        How much time will this take?
+                        <span class="accordion-icon transition-transform duration-300">↓</span>
+                    </button>
+                    <div class="accordion-content text-slate-600">
+                        <p class="pb-6">The guide is designed for busy mothers. The 14-day email sequence takes only 5-10 minutes a day, while the e-books can be read at your own pace.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="cta" class="py-24 px-6 md:px-12 text-center bg-[#F9F7F5]">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl md:text-5xl text-slate-900 mb-6 serif">Ready to shift the pattern?</h2>
+            <p class="text-lg text-slate-600 mb-10">Join other thoughtful parents in creating a home rooted in emotional safety and connection.</p>
+            <a href="#" class="bg-[#2C3E50] text-white px-10 py-5 rounded-full font-medium text-lg hover:bg-[#1a252f] transition-all transform hover:-translate-y-1 shadow-xl inline-block">
+                Get the Complete Bundle (₹499)
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 md:px-12 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-slate-900 serif italic font-semibold">The Thoughtful Parent</div>
+            <div class="flex flex-wrap justify-center gap-6 text-sm text-slate-500">
+                <a href="#" class="hover:text-slate-800 transition-colors">Contact</a>
+                <a href="#" class="hover:text-slate-800 transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-slate-800 transition-colors">Terms & Conditions</a>
+                <a href="#" class="hover:text-slate-800 transition-colors">Refund Policy</a>
+            </div>
+            <div class="text-xs text-slate-400">&copy; 2026 The Thoughtful Parent. All rights reserved.</div>
+        </div>
+    </footer>
+
+</body>
+</html>
